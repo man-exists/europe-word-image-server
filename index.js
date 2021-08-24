@@ -5,7 +5,7 @@ const cors = require('cors')
 const express = require('express')
 const app = express()
 
-const countries = require('./countries.json')
+const countries = require('./assets/countries.json')
 
 app.use(express.json())
 app.use(cors())
@@ -19,14 +19,14 @@ app.get('/:word', (req, res) => {
 
   if (req.params.word === 'favicon.ico') return 
   
-  registerFont('./Roboto-Medium.ttf', {family: 'Roboto'})
+  registerFont('./assets/Roboto-Medium.ttf', {family: 'Roboto'})
     
     console.log(`[-] Processing '${req.params.word}'`)
 
     const canvas = createCanvas(2560, 1958)
     const context = canvas.getContext('2d')
 
-    loadImage('./europe.png').then(async (image) => {
+    loadImage('./assets/europe.png').then(async (image) => {
         await context.drawImage(image, 0, 0, canvas.width, canvas.height)
 
         for (country of countries) {
