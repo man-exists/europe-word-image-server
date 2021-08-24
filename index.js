@@ -1,4 +1,4 @@
-const { createCanvas, loadImage } = require('canvas')
+const { createCanvas, loadImage, registerFont } = require('canvas')
 const translate = require('@vitalets/google-translate-api')
 const cors = require('cors')
 
@@ -10,7 +10,16 @@ const countries = require('./countries.json')
 app.use(express.json())
 app.use(cors())
 
+app.get('/', (req, res) => {
+  res.send('hehe')
+})
+
+
 app.get('/:word', (req, res) => {
+
+  if (req.params.word === 'favicon.ico') return 
+  
+  registerFont('./Roboto-Medium.ttf', {family: 'Roboto'})
     
     console.log(`[-] Processing '${req.params.word}'`)
 
@@ -21,7 +30,7 @@ app.get('/:word', (req, res) => {
         await context.drawImage(image, 0, 0, canvas.width, canvas.height)
 
         for (country of countries) {
-            context.font = `${country.fontSize} Source Code Pro Bold, sans-serif`
+            context.font = `${country.fontSize} Roboto Medium`
             context.fillStyle = '#000000'
 
             const res = await translate(req.params.word, { to: country.language })
@@ -46,4 +55,4 @@ app.get('/:word', (req, res) => {
 
 })
 
-app.listen(8000, () => console.log('[+] Server Online.'))
+app.listen(80, () => console.log('[+] Server Online.'))
