@@ -1,0 +1,120 @@
+[{
+        "name": "France",
+        "x": 850,
+        "y": 1400,
+        "fontSize": "30px",
+        "language": "french"
+    },
+    {
+        "name": "UK",
+        "x": 760,
+        "y": 1150,
+        "fontSize": "23px",
+        "language": "english"
+    },
+    {
+        "name": "Germany",
+        "x": 1070,
+        "y": 1200,
+        "fontSize": "30px",
+        "language": "german"
+    },
+    {
+        "name": "Sweden",
+        "x": 1250,
+        "y": 600,
+        "fontSize": "25px",
+        "language": "swedish"
+    },
+    {
+        "name": "Italy",
+        "x": 1130,
+        "y": 1500,
+        "fontSize": "25px",
+        "language": "italian"
+    },
+    {
+        "name": "Turkey",
+        "x": 1900,
+        "y": 1640,
+        "fontSize": "40px",
+        "language": "turkish"
+    },
+    {
+        "name": "Russia",
+        "x": 1800,
+        "y": 900,
+        "fontSize": "40px",
+        "language": "russian"
+    },
+    {
+        "name": "Norway",
+        "x": 1070,
+        "y": 800,
+        "fontSize": "25px",
+        "language": "norwegian"
+    },
+    {
+        "name": "Finland",
+        "x": 1430,
+        "y": 680,
+        "fontSize": "25px",
+        "language": "finnish"
+    },
+    {
+        "name": "Ukraine",
+        "x": 1630,
+        "y": 1230,
+        "fontSize": "30px",
+        "language": "ukrainian"
+    },
+    {
+        "name": "Belarus",
+        "x": 1590,
+        "y": 1060,
+        "fontSize": "20px",
+        "language": "belarusian"
+    },
+    {
+        "name": "Czechia",
+        "x": 1250,
+        "y": 1300,
+        "fontSize": "20px",
+        "language": "czech"
+    },
+    {
+        "name": "Switzerland",
+        "x": 1030,
+        "y": 1430,
+        "fontSize": "20px",
+        "language": "german"
+    },
+    {
+        "name": "Belgium",
+        "x": 930,
+        "y": 1250,
+        "fontSize": "25px",
+        "language": "dutch"
+    },
+    {
+        "name": "Netherlands",
+        "x": 960,
+        "y": 1180,
+        "fontSize": "25px",
+        "language": "dutch"
+    },
+    {
+        "name": "Poland",
+        "x": 1340,
+        "y": 1190,
+        "fontSize": "40px",
+        "language": "polish"
+    },
+    {
+        "name": "Spain",
+        "x": 600,
+        "y": 1700,
+        "fontSize": "40px",
+        "language": "spanish"
+    }
+]

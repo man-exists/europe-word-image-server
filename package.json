@@ -1,0 +1,16 @@
+{
+  "name": "europe-word-image",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^7.0.0",
+    "axios": "^0.21.1",
+    "canvas": "^2.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "free-translate": "^0.4.0",
+    "node-fetch": "^2.6.1",
+    "translate": "^1.2.3"
+  }
+}
